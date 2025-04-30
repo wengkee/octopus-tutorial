@@ -1,0 +1,13 @@
+variable "Helloworld.Greeting" {
+    value "Hello, Development" {
+        environment = ["development"]
+    }
+
+    value "Hello, Staging" {
+        environment = ["staging"]
+    }
+
+    value "Hello, Production" {
+        environment = ["production"]
+    }
+}
